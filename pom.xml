@@ -19,6 +19,7 @@
 
     <modules>
         <module>clowns</module>
+        <module>dreams</module>
     </modules>
 
     <build>
