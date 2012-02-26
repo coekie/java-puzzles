@@ -1,10 +1,27 @@
-// this is the only file you're allowed to edit
 package dream;
 
 import sleep.Sleeper;
 
 public class Dream {
-    public void dream(Sleeper s) {
-        // TODO implement me
+    private static void doWait(Sleeper s) {
+        try {
+            s.wait(200);
+        } catch (InterruptedException e) {
+        }
+    }
+
+    public void dream(final Sleeper s) {
+        new Thread() {
+            public void run() {
+                s.dream(new Dream() {
+                    @Override
+                    public void dream(Sleeper s) {
+                        doWait(s);
+                    }
+                });
+            }
+        }.start();
+
+        doWait(s);
     }
 }
