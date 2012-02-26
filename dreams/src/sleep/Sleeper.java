@@ -5,7 +5,7 @@ import dream.Dream;
 public class Sleeper {
     private int level;
 
-    public synchronized int dream(Dream dream) {
+    public synchronized int enter(Dream dream) {
         level++;
         try {
             dream.dream(this);

@@ -13,7 +13,7 @@ public class Dream {
     public void dream(final Sleeper s) {
         new Thread() {
             public void run() {
-                s.dream(new Dream() {
+                s.enter(new Dream() {
                     @Override
                     public void dream(Sleeper s) {
                         doWait(s);
