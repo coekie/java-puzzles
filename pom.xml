@@ -20,6 +20,7 @@
     <modules>
         <module>clowns</module>
         <module>dreams</module>
+        <module>car</module>
     </modules>
 
     <build>
