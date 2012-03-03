@@ -21,6 +21,7 @@
         <module>clowns</module>
         <module>dreams</module>
         <module>car</module>
+        <module>car2</module>
     </modules>
 
     <build>
