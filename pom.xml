@@ -22,6 +22,7 @@
         <module>dreams</module>
         <module>car</module>
         <module>car2</module>
+        <module>liquid</module>
     </modules>
 
     <build>
