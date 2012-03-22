@@ -23,6 +23,7 @@
         <module>car</module>
         <module>car2</module>
         <module>liquid</module>
+        <module>ball</module>
     </modules>
 
     <build>
