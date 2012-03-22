@@ -24,6 +24,7 @@
         <module>car2</module>
         <module>liquid</module>
         <module>ball</module>
+        <module>chicken</module>
     </modules>
 
     <build>
