@@ -25,6 +25,7 @@
         <module>liquid</module>
         <module>ball</module>
         <module>chicken</module>
+        <module>cookies</module>
     </modules>
 
     <build>
